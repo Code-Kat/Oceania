@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-width: 361px;
 }
 
 
@@ -12,6 +13,5 @@ green: #9cb806
 light yellow: #fef764
 light orange/dark yellow #f89c12 
 orange  #f23c06
-
 
 */

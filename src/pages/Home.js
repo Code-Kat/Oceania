@@ -2,6 +2,7 @@ import "./Home.css";
 import React from 'react'
 import Search from "../components/Search";
 import wavesImg from "../home-waves-image.png";
+import wavesImgMobile from "../home-waves-image-mobile.png"
 
 function Home() {
     return (
@@ -25,7 +26,8 @@ function Home() {
             </div>
             
             <div className="home__footer">
-                <img src={wavesImg}/>
+                <img className="home__footerImg"src={wavesImg}/>
+                <img className="home__footerImgMb"src={wavesImgMobile}/>
             </div>
         </div>
     )
