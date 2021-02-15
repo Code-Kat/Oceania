@@ -1,0 +1,40 @@
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 600px;
+    align-self: center;
+    padding: 7px 10px;
+}
+
+.search >form {
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    width: inherit;
+}
+    
+
+.search__input {
+    outline: none;
+    font-size: 25px;
+    border: none;
+    text-align: left;
+    flex:1;
+}
+
+.search__icon {
+    padding:10px;
+    color: darkgray;
+}
+
+.search__icon:hover{
+    color: #35d3da;
+    cursor: pointer;
+}
+
+.search >form > button {
+    display: none;
+}

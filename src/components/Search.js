@@ -5,7 +5,7 @@ import { useHistory } from "react-router-dom";
 import { useStateValue } from '../contextAPI/StateProvider';
 import { actionTypes } from '../contextAPI/reducer';
 
-function Search() {
+function Search( {placeholder}) {
     const[{}, dispatch] = useStateValue();
 
     const history = useHistory();
@@ -27,7 +27,7 @@ function Search() {
                     value={input}
                     onChange={e=> setInput(e.target.value)}
                     className="search__input"
-                    placeholder="Search the web to clean our oceans"
+                    placeholder= {placeholder}
                 />
                 <SearchIcon className="search__icon"/> 
                 <button

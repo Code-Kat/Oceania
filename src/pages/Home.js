@@ -1,24 +1,32 @@
 import "./Home.css";
-
 import React from 'react'
+import Search from "../components/Search";
+import wavesImg from "../home-waves-image.png";
 
 function Home() {
     return (
         <div className="home">
             <div className="home__header">
-                <div className="home__headerLeft">
-                    {/* Link */}
-                    {/* Link */}
-                </div>
-                <div className="home__headerRight">
-                    {/* Link */}
-                    {/* Link */}
-                    {/* Icon */}
-                    {/* Avatar */}
-                </div>
+                    <button>About</button>
+                    <button>News</button>
+                    <button>Email</button>
+                    <button>App</button> 
+            </div>
+            <div className="home__top">
+                <img src="http://clipartmag.com/image/dolphin-fish-drawing-5.jpg"  />
+                <h1>ceania</h1>
+            </div>
+            <Search 
+             placeholder="Search the web to clean our oceans" 
+            />
+            <div className="home__counter">
+                <h1>234 234 234</h1>
+                <p>Pieces of of plastic cleaned from our oceans</p>
             </div>
             
-            <div className="home__body"></div>
+            <div className="home__footer">
+                <img src={wavesImg}/>
+            </div>
         </div>
     )
 }

@@ -1,1 +1,1 @@
-Google clone because everyone like googling. 
+Oceania, removing pastic from our oceans one search at a time.  Unfortunately, this is just a demo, but it would be awesome if it were real.
