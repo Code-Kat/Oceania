@@ -1,0 +1,37 @@
+.result{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.result__title {
+    color: #1a0dab;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px; 
+    width: fit-content;
+    max-width: 70vw; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.result__title:hover {
+    border-bottom: 1px solid #1a0dab;
+    margin-bottom: 4px;
+}
+
+.result__website {
+    color: #00644d;
+    overflow: hidden;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 2px;
+}
+
+.result__description {
+    line-height: 1.4;
+    padding-top: 2px;
+    padding-bottom: 40px;
+}
