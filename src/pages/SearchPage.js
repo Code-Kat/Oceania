@@ -12,6 +12,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import Result from '../components/Result';
 import { useHistory } from 'react-router-dom';
+import logoImg from "../logo-dolphins.jpg"
 
 function SearchPage() {
 
@@ -23,7 +24,7 @@ function SearchPage() {
         <div className="searchPage">
             <div className="searchPage__header">
                 <div className="searchPage__headerLogo" onClick={()=>history.push("/")}>
-                    <img src="http://clipartmag.com/image/dolphin-fish-drawing-5.jpg" />
+                    <img src={logoImg} />
                     <h1>ceania</h1>
                 </div>
                 <div className="searchPage__headerSearch">

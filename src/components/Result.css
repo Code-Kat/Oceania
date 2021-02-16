@@ -9,7 +9,7 @@
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 5px; 
-    
+    width: fit-content;
     max-width: 70vw; 
     overflow: hidden;
     text-overflow: ellipsis;

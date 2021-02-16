@@ -22,7 +22,7 @@ function Search( {placeholder}) {
     }
     return (
         <div className="search">     
-            <form>
+            <form onSubmit={search}>
                 <input 
                     value={input}
                     onChange={e=> setInput(e.target.value)}
@@ -31,8 +31,7 @@ function Search( {placeholder}) {
                 />
                 <SearchIcon className="search__icon"/> 
                 <button
-                    type="submit" 
-                    onClick={search}></button>
+                    type="submit"></button>
             </form>   
         </div>
     )

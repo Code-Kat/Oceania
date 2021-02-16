@@ -2,7 +2,8 @@ import "./Home.css";
 import React from 'react'
 import Search from "../components/Search";
 import wavesImg from "../home-waves-image.png";
-import wavesImgMobile from "../home-waves-image-mobile.png"
+import wavesImgMobile from "../home-waves-image-mobile.png";
+import logoImg from "../logo-dolphins.jpg"
 
 function Home() {
     return (
@@ -14,7 +15,7 @@ function Home() {
                     <button>App</button> 
             </div>
             <div className="home__top">
-                <img src="http://clipartmag.com/image/dolphin-fish-drawing-5.jpg"  />
+                <img src={logoImg}  />
                 <h1>ceania</h1>
             </div>
             <Search 
@@ -22,7 +23,7 @@ function Home() {
             />
             <div className="home__counter">
                 <h1>234 234 234</h1>
-                <p>Pieces of of plastic cleaned from our oceans</p>
+                <p>Pieces of plastic cleaned from our oceans</p>
             </div>
             
             <div className="home__footer">
