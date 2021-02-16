@@ -18,7 +18,7 @@ function Home() {
                 <h1>ceania</h1>
             </div>
             <Search 
-             placeholder="Search the web to clean our oceans" 
+             placeholder="Search to clean our oceans" 
             />
             <div className="home__counter">
                 <h1>234 234 234</h1>

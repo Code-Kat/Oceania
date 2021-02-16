@@ -26,9 +26,11 @@ function SearchPage() {
                     <img src="http://clipartmag.com/image/dolphin-fish-drawing-5.jpg" />
                     <h1>ceania</h1>
                 </div>
-                <Search className= "searchPage__headerSearch"
+                <div className="searchPage__headerSearch">
+                    <Search 
                     placeholder= {term ? term: "Search the web to clean our oceans"}
-                 />
+                    />
+                 </div>
                 <div className="searchPage__headerIcons">
                     <MenuIcon className="searchPage__headerIcon" />
                     <NotificationsIcon className="searchPage__headerIcon"/>
@@ -123,7 +125,7 @@ function SearchPage() {
             <div className="searchPage__footer">
                 <div className="searchPage__footerLeft">
                     <p>Privacy</p>
-                    <p>Send feedback</p>
+                    <p>Send&nbsp;feedback</p>
                     <p>Help</p>
                     <p>FAQ</p>
                     <p>Careers</p>
